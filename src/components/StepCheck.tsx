@@ -76,7 +76,7 @@ export default function StepCheck() {
             <input
               id="inLabel"
               name='date'
-              type="text"
+              type="date"
               className="in-input-date"
               onChange={handleChange}
               value={currentStep.date}
@@ -87,7 +87,7 @@ export default function StepCheck() {
             <input
               id="inDistance"
               name='distance'
-              type="text"
+              type="number"
               className="in-input-distance"
               onChange={handleChange}
               value={currentStep.distance.toString()}
